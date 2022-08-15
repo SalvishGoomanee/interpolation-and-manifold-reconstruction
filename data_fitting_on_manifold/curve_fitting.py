@@ -1,1 +1,2 @@
-"hello name"
+import numpy as np
+
