@@ -125,28 +125,3 @@ class FittingSmoothCurveToData(PlotData):
         y_BSpline = BSpline(self.x)
         spline_tuple = [(self.x, y_BSpline)]
         self.plot_graph(self.x, sparse_data, title_curves="Sparse data with B-Spline smoothing", scatter=True, line=False, line_viz=spline_tuple)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
