@@ -1,6 +1,6 @@
 import numpy as np
 
-from curve_fitting import FittingSmoothCurveToData
+from curve_fitting_algorithms import FittingSmoothCurveToData
 
 # Define ground truth curve
 x = np.linspace(-3, 4, 100)
